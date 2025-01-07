@@ -1,0 +1,53 @@
+h1 {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 500px;
+
+    border: 10px solid darkslategray;
+    padding: 10px 10px 10px 10px;
+    margin: 20px auto 40px auto;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    */
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+
+    /*margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+
+    /*margin: 20px 20px 40px 20px;*/
+
+    /*outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;*/
+
+    outline: 5px dashed salmon;
+}
+p {
+    background-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+a {
+    border-width: 5px;
+    border-style: double;
+    border-color: indianred;
+}
