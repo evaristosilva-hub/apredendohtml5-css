@@ -5,6 +5,7 @@ body {
 table {
     width: 600px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -18,6 +19,12 @@ caption {
     font-weight: bold;
     padding: 10px;
     background-color: lightgrey;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #383838;
 }
 
 td.num {
