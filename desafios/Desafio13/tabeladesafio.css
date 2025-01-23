@@ -5,8 +5,9 @@ body {
 }
 
 table {
+    width: 600px;
     border-collapse: collapse;
-    padding: 300px;
+    
 
 }
 
